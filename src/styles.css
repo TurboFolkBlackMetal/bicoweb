@@ -18,3 +18,8 @@
 .text-color {
   color: #1E1E1E;
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
