@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: 'Manrope';
+  color: #1E1E1E;
+  @apply tracking-tight
+}
+
+.main-bg {
+  background-color: #EF4507;
+}
+
+.text-color {
+  color: #1E1E1E;
+}

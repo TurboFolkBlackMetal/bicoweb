@@ -1,0 +1,22 @@
+.bg-hero {
+  background-image: url("../assets/hero.png");
+  background-size: cover;
+}
+
+.bg-light {
+  background-image: url("../assets/bg-white.png");
+  background-size: cover;
+}
+
+.bico-protocol-bg {
+  background-image: url("../assets/image.png");
+  background-size: cover;
+}
+
+.bico-protocol-bg-2 {
+  background: 
+    url("../assets/bg-white.png"),
+    #EF4507;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
