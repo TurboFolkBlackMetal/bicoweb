@@ -17,13 +17,13 @@
         <ng-container *ngIf="true; then productsDropdown"></ng-container>
       </a>
       <a
-        class="text-white text-center hover:text-[rgba(255,255,255,0.8)]  w-32 group relative cursor-pointer"
+        class="text-white text-center hover:text-[rgba(255,255,255,0.8)] w-32 group relative cursor-pointer"
       >
         Learn
         <ng-container *ngIf="true; then learnDropdown"></ng-container>
       </a>
-      <a
-        class="text-white text-center hover:text-[rgba(255,255,255,0.8)]  w-32 group relative cursor-pointer"
+      <a href="https://biconomy.io/ecosystem"
+        class="text-white text-center hover:text-[rgba(255,255,255,0.8)] w-32 group relative cursor-pointer"
       >
         Ecosystem
       </a>
@@ -39,7 +39,9 @@
         </svg>
         
       </button> -->
-      <button
+      <a
+        href="https://hlp8w9pp2h3.typeform.com/biconomy"
+        target="_blank"
         class="px-8 py-2 rounded-full flex flex-row items-center gap-x-2 text-base bg-[rgba(255,255,255,0.7)] hover:bg-white transition-all"
       >
         Join MEE Waitlist
@@ -57,44 +59,52 @@
             d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
           />
         </svg>
-      </button>
+      </a>
     </div>
   </div>
 
-  <div class="lg:hidden  flex flex-row w-screen px-8">
-    <img class="h-6" src="../../assets/biconomy.png" alt="" srcset="">
+  <div class="lg:hidden flex flex-row w-screen px-8">
+    <img class="h-6" src="../../assets/biconomy.png" alt="" srcset="" />
     <div class="text-white ml-2 font-semibold">Biconomy</div>
   </div>
 </div>
 
 <ng-template #productsDropdown>
   <div
-    class="absolute transition-all duration-400 ease-in-out top-full
-     left-0 mt-4 -ml-[60%] text-left shadow-lg rounded-lg w-72 flex
-      flex-col gap-y-3 opacity-0 invisible  backdrop-blur-md
-      group-hover:opacity-100 group-hover:visible
-       p-8 bg-[rgba(0,0,0,0.4)] z-[100] text-white"
+    class="absolute transition-all duration-400 ease-in-out top-full left-0 mt-4 -ml-[60%] text-left shadow-lg rounded-lg w-72 flex flex-col gap-y-3 opacity-0 invisible backdrop-blur-md group-hover:opacity-100 group-hover:visible p-8 bg-[rgba(0,0,0,0.4)] z-[100] text-white"
   >
     <div class="text-xl font-bold text-white">MEE</div>
-    <a href="" class="opacity-70 hover:opacity-100 transition-opacity"
+    <a
+      target="_blank"
+      href="https://www.biconomy.io/post/modular-execution-environment-supertransactions"
+      class="opacity-70 hover:opacity-100 transition-opacity"
       >Explore MEE</a
     >
-    <a href="" class="opacity-70 hover:opacity-100 transition-opacity"
+    <a
+      target="_blank"
+      href="https://hlp8w9pp2h3.typeform.com/biconomy"
+      class="opacity-70 hover:opacity-100 transition-opacity"
       >Join MEE Waitlist</a
     >
     <hr class="opacity-20 my-4" />
     <div class="text-xl font-bold text-white">Account Abstraction</div>
-    <a href="https://dashboard.biconomy.io/" class="opacity-70 hover:opacity-100 transition-opacity"
+    <a
+      href="https://dashboard.biconomy.io/"
+      class="opacity-70 hover:opacity-100 transition-opacity"
       >Dashboard</a
     >
-    <a href="https://docs.biconomy.io/" class="opacity-70 hover:opacity-100 transition-opacity">Docs</a>
-    <a href="" class="opacity-70 hover:opacity-100 transition-opacity"
+    <a
+      href="https://docs.biconomy.io/"
+      class="opacity-70 hover:opacity-100 transition-opacity"
+      >Docs</a
+    >
+    <a target="_blank" href="https://biconomy.io/smart-accounts" class="opacity-70 hover:opacity-100 transition-opacity"
       >Modular Smart Accounts</a
     >
-    <a href="" class="opacity-70 hover:opacity-100 transition-opacity"
+    <a href="https://biconomy.io/bundler" class="opacity-70 hover:opacity-100 transition-opacity"
       >Bundlers</a
     >
-    <a href="" class="opacity-70 hover:opacity-100 transition-opacity"
+    <a href="https://biconomy.io/paymaster" class="opacity-70 hover:opacity-100 transition-opacity"
       >Paymasters</a
     >
   </div>
@@ -102,19 +112,13 @@
 
 <ng-template #learnDropdown>
   <div
-    class="absolute transition-all text-left duration-400 ease-in-out 
-    top-full left-0 mt-4 -ml-[60%] shadow-lg rounded-lg w-72 flex flex-col gap-y-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible p-8 bg-[rgba(0,0,0,0.4)] backdrop-blur-md text-white"
+    class="absolute transition-all text-left duration-400 ease-in-out top-full left-0 mt-4 -ml-[60%] shadow-lg rounded-lg w-72 flex flex-col gap-y-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible p-8 bg-[rgba(0,0,0,0.4)] backdrop-blur-md text-white"
   >
     <div class="text-xl font-bold text-white">Learn</div>
-    <a href="" class="opacity-70 hover:opacity-100 transition-opacity"
+    <a href="https://www.biconomy.io/about-us" class="opacity-70 hover:opacity-100 transition-opacity"
       >About Us</a
     >
-    <a href="" class="opacity-70 hover:opacity-100 transition-opacity"
-      >Blog</a
-    >
-    <a href="" class="opacity-70 hover:opacity-100 transition-opacity"
-      >FAQ</a
-    >
-    
+    <a href="https://www.biconomy.io/blog" class="opacity-70 hover:opacity-100 transition-opacity">Blog</a>
+    <a href="https://biconomy.notion.site/biconomy/Technical-FAQs-65f38804125346fc9f28ed2e6f6b5eb2#72387fd4015e4a50968f47ac76545486" class="opacity-70 hover:opacity-100 transition-opacity">FAQ</a>
   </div>
 </ng-template>
